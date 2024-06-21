@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  background: black;
+  color: white;
+}
+
+.aqua__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #6ef5ff 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #b076f3 0%, #ff4bfc 100%);
+  filter: blur(200px);
+}
+
+.white__gradient {
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+  filter: blur(150px);
+}
+
+.invert-img {
+  filter: invert();
+}

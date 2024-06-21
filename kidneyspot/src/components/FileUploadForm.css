@@ -1,0 +1,19 @@
+.file-upload-container {
+    background-image: url('../assets/design.png');
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  label[for="file-input"] {
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6c1594;
+  }
+  
