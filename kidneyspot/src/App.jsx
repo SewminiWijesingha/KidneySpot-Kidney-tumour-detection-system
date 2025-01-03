@@ -1,4 +1,4 @@
-import AddUser from "./components/AddUser";
+//import AddUser from "./components/AddUser";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Register from "./components/Register";
@@ -12,7 +12,7 @@ function App() {
         <Route path="/Login" id="login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/adduser" element={<AddUser />} />
+        {/*<Route path="/adduser" element={<AddUser />} />*/}
         {/* <Route path="/home" element ={<Home/>} /> */}
       </Routes>
     </BrowserRouter>

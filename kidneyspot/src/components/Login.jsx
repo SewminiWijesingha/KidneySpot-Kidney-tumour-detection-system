@@ -4,7 +4,6 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Footer from "./Footer";
 import AdminDashboard from "./AdminDashboard";
-import AddUser from "./AddUser";
 import loginImage from "../assets/login-bg.jpg"; //import image -1
 import Navbar from "./Navbar";
 
